@@ -44,3 +44,4 @@ If you now get a notification about a security vulnerability, delete the Gemfile
 
 1. [academicicons](https://jpswalsh.github.io/academicons/)
 1. [Font Awesome](https://fontawesome.com)
+1. [Google Rich Results Test](https://search.google.com/test/rich-results)
