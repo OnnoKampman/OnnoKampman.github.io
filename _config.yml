@@ -1,5 +1,3 @@
-# Welcome to Jekyll!
-#
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
 
@@ -19,6 +17,7 @@ repository               : "OnnoKampman.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
+future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 atom_feed:
   path                   : # blank (default) uses feed.xml
@@ -49,7 +48,6 @@ analytics:
 author:
 #  name             : "Onno Kampman"
   avatar           : "onno.JPG"  # placed in /images/
-#  bio              : "Cognitive Scientist"
 #  location         : "Singapore"
   email            : "onno.kampman@moht.com.sg"
   uri              : "https://onnokampman.com"
@@ -123,12 +121,12 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-# Collections
+# These settings control the types of collections used by the template
 collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  talks:
+  teaching:
     output: true
     permalink: /:collection/:path/
 
@@ -159,14 +157,14 @@ defaults:
       layout: single
       author_profile: true
       share: true
-  # _talks
+  # _teaching
   - scope:
       path: ""
-      type: talks
+      type: teaching
     values:
-      layout: talk
+      layout: single
       author_profile: true
-      share: true
+      share: false
 
 # Sass/SCSS
 sass:
