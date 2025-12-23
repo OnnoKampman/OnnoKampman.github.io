@@ -4,8 +4,8 @@ date: 2024-08-18
 permalink: /posts/2024/08/the-limits-of-thinking/
 author_profile: false
 tags:
-  - essays
   - cognition
+  - essays
 ---
 
 This essay discusses the mental concept of thinking in limits.

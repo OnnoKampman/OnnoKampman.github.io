@@ -20,7 +20,7 @@ On a more personal level, many of us also struggle with jumping to conclusions, 
 But most interesting problems don't have simple solutions, and most disagreements aren't as black-and-white as they appear.
 
 I've found that one simple cognitive tool can cut through a lot of this noise: extremes analysis.
-This framework builds on top of a [previously discuss cognitive tool](https://onnokampman.github.io/posts/2024/08/the-limits-of-thinking/){:target="_blank"}.
+This framework builds on top of a [previously discuss cognitive tool](https://onnokampman.com/posts/2024/08/the-limits-of-thinking/){:target="_blank"}.
 The idea is straightforward – when you're trying to understand a complex issue or navigate a difficult conversation, start by identifying the most extreme positions possible on both ends of the spectrum.
 Once you have scoped out the complete "map" of the issue, work backwards to see where reasonable people actually disagree on a political topic, or uncover the actual roots of a disagreement.
 
