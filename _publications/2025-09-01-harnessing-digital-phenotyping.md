@@ -3,7 +3,7 @@ title: "Harnessing digital phenotyping to advance university student mental heal
 collection: publications
 category: journal article
 permalink: /publication/2025-09-01-harnessing-digital-phenotyping
-excerpt: 'TLDR: This study will employ an observational study design over a 6-month period, recruiting 500 students from a major public university in Singapore, to identify the digital biomarkers associated with depression, anxiety, stress, loneliness and affect among university students.'
+excerpt: 'This study will employ an observational study design over a 6-month period, recruiting 500 students from a major public university in Singapore, to identify the digital biomarkers associated with depression, anxiety, stress, loneliness and affect among university students.'
 date: 2025-09-01
 venue: 'BMJ Open'
 paperurl: 'https://bmjopen.bmj.com/lookup/doi/10.1136/bmjopen-2025-103652'

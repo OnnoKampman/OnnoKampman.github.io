@@ -4,15 +4,16 @@ date: 2016-09-01
 permalink: /posts/2016/09/mental-health-continuum/
 author_profile: false
 tags:
-  - me
   - essays
+  - mental health
 ---
 
 This post describes my view of mental health as a continuous spectrum.
 
 Mental health and mental performance exist on a continuum, not as binary states.
-Like most natural processes in the world, if we plotted the population's mental functioning, we'd see a normal distribution from those struggling significantly on one end, through the average majority in the middle, to high performers on the other.
+Like most natural processes in the world, if we plotted the population's mental functioning (as a rough concept), we'd see a normal distribution from those struggling significantly on one end, through the average majority in the middle, to high performers on the other.
 The people at the left side of the spectrum suffer tremendously and are typically incapable of functioning in society, whereas the people on the right side are thriving.
+Commonly used mental health questionnaires such as the PHQ-9 assign individuals to a category of "severity", such as "mild" or "severe".
 
 <div style="margin: 40px 0;">
 <iframe srcdoc='<!DOCTYPE html>
@@ -281,7 +282,20 @@ The people at the left side of the spectrum suffer tremendously and are typicall
 </html>' width="100%" height="800" frameborder="0" style="border: 1px solid #ddd; border-radius: 8px;"></iframe>
 </div>
 
-Much of our approach to mental health care is focused on drawing a line somewhere on this axis (policy making), deciding where everyone falls on this axis (diagnosis), and then trying to get the individuals on the left side across the line (treatment).
+Many nations implement some sort of classification system for individuals, which determines the level and type of care they can receive.
+For example, Singapore uses a [Tiered Care Model](https://hpp.moh.gov.sg/guidelines/practice-guide-for-tiered-care-model-for-mental-health/) for mental health.
+Tier 1 focuses on Mental Wellbeing Promotion.
+It focuses on foundational support, mental health promotion, and self-help resources.
+This includes digital platforms, peer support groups, and community-based programs.
+Tier 2 focuses on Low-intensity services.
+It provides low-intensity interventions for individuals with less severe symptoms.
+This level may include general counseling or behavioral health coaching.
+Tier 3 focuses on Moderate-intensity services.
+It offers more intensive support for moderate symptoms, such as psychotherapy and other medical treatments.
+Tier 4 focuses on High-intensity services.
+This includes high-intensity, specialized care for individuals with severe symptoms who require psychiatric assessment and long-term psychological interventions from trained professionals in hospitals and specialist clinics.
+
+Much of our approach to mental health care is focused on drawing a line somewhere on this axis (policy making), deciding where everyone falls on this axis (diagnosis), and then trying to move the individuals on the left side to the right across the line (treatment).
 
 There are two limitations of this approach.
 First, it is hard to determine where we should draw this clinical line, and is often somewhat arbitrary.
