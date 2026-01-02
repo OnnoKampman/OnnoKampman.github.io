@@ -1,7 +1,7 @@
 ---
 title: 'The Genie and the Therapist: Rethinking Bioethics for Digital Mental Health'
 date: 2025-08-22
-permalink: /posts/2025/08/when-is-waiting-unethical/
+permalink: /posts/2025/08/the-genie-and-the-therapist/
 author_profile: false
 tags:
   - AI
