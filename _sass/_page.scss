@@ -75,13 +75,27 @@
   }
 
   a {
+    position: relative;
     color: $link-color;
     text-decoration: none;
-    border-bottom: 1px solid mix(#fff, $link-color, 70%);
+    padding-bottom: 1px;
+    background-image: linear-gradient(
+      to right,
+      mix(#fff, $link-color, 60%) 0,
+      mix(#fff, $link-color, 60%) 100%
+    );
+    background-repeat: no-repeat;
+    background-size: 100% 1px;
+    background-position: 0 100%;
 
     &:hover {
       color: $link-color-hover;
-      border-bottom-color: $link-color-hover;
+      background-image: linear-gradient(
+        to right,
+        $link-color-hover 0,
+        $link-color-hover 100%
+      );
+      background-size: 100% 2px;
 
       img {
         box-shadow: 0 0 10px rgba(#000, 0.25);
