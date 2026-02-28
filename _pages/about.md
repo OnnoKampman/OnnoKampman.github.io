@@ -10,6 +10,8 @@ redirect_from:
 
 Thanks for visiting!
 
+I am a cognitive scientist working on mental health and human-centered AI.
+
 I lead AI initiatives for [mindline.sg](https://mindline.sg){:target="_blank"}, Singapore's national digital platform for mental health, at the [MOH Office for Healthcare Transformation (MOHT)](https://moht.com.sg){:target="_blank"}.
 My work focuses on a portfolio of projects at the intersection of AI and mental health, exploring how technology can help scale and improve our mental health care systems.
 
