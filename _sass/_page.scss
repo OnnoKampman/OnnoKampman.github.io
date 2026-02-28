@@ -75,7 +75,9 @@
   }
 
   a {
+    color: $link-color;
     text-decoration: none;
+    border-bottom: 1px solid mix(#fff, $link-color, 70%);
 
     &:hover {
       text-decoration: underline;
