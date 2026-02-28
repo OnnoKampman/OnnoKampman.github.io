@@ -1,5 +1,5 @@
 ---
-title: "Worker Skills Associated With Outcomes In Suicidal-Related Youth Chat Sessions"
+title: "Worker skills associated with outcomes in suicidal-related youth chat sessions"
 collection: publications
 category: journals
 permalink: /publication/2026-01-17-worker-skills
@@ -7,7 +7,7 @@ excerpt: 'Introduction: Text-based chatlines have become preferred entry points 
 date: 2026-01-17
 venue: 'OSF'
 paperurl: 'https://osf.io/preprints/socarxiv/qaet6_v1'
-citation: 'Chung et al. (2026). &quot;Worker Skills Associated With Outcomes In Suicidal-Related Youth Chat Sessions.&quot; <i>OSF</i>.'
+citation: 'Chung, Lim, and Kampman. (2026). &quot;Worker Skills Associated With Outcomes In Suicidal-Related Youth Chat Sessions.&quot; <i>OSF</i>.'
 ---
 
 Introduction: Text-based chatlines have become preferred entry points for youth seeking mental health support, yet most research examines dedicated crisis services rather than general chatlines where suicide emerges alongside diverse concerns.

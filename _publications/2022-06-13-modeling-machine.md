@@ -1,5 +1,5 @@
 ---
-title: "Modeling the Machine Learning Multiverse"
+title: "Modeling the machine learning multiverse"
 collection: publications
 category: manuscripts
 permalink: /publication/2022-06-13-modeling-machine
