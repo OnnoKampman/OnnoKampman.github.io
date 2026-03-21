@@ -1,5 +1,9 @@
 **.DS_Store
 _site/
 vendor/
+
 # Snyk Security Extension - AI Rules (auto-generated)
 .github/instructions/snyk_rules.instructions.md
+
+.vscode/
+.sass-cache/
