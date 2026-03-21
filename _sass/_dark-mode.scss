@@ -1,0 +1,407 @@
+/* ==========================================================================
+   Light / Dark theme
+   Warm palette inspired by Claude's UI aesthetic.
+   Uses CSS custom properties so themes can be switched at runtime
+   without recompiling SCSS.
+   ========================================================================== */
+
+/* ------------------------------------------------------------------
+   Token definitions
+   ------------------------------------------------------------------ */
+
+/* Light mode (default) */
+:root {
+  --theme-bg:           #faf9f5;
+  --theme-bg-elevated:  #f2f0eb;
+  --theme-text:         #3d3929;
+  --theme-text-muted:   #7a7564;
+  --theme-border:       #e8e5de;
+  --theme-link:         #5c4b30;
+  --theme-link-hover:   #3a2f1c;
+  --theme-accent:       #b06b3b;
+  --theme-code-bg:      #f0ede6;
+  --theme-nav-bg:       #faf9f5;
+  --theme-nav-hover-bg: #ebe8e1;
+}
+
+/* Dark mode – explicit (JS-toggled) */
+[data-theme="dark"] {
+  --theme-bg:           #1a1916;
+  --theme-bg-elevated:  #242220;
+  --theme-text:         #e8e5d8;
+  --theme-text-muted:   #9e9b8e;
+  --theme-border:       #363229;
+  --theme-link:         #d4a574;
+  --theme-link-hover:   #e8c49a;
+  --theme-accent:       #d4a574;
+  --theme-code-bg:      #201e1b;
+  --theme-nav-bg:       #1a1916;
+  --theme-nav-hover-bg: #2a2825;
+}
+
+/* Dark mode – system preference fallback (when no stored choice) */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]):not([data-theme="dark"]) {
+    --theme-bg:           #1a1916;
+    --theme-bg-elevated:  #242220;
+    --theme-text:         #e8e5d8;
+    --theme-text-muted:   #9e9b8e;
+    --theme-border:       #363229;
+    --theme-link:         #d4a574;
+    --theme-link-hover:   #e8c49a;
+    --theme-accent:       #d4a574;
+    --theme-code-bg:      #201e1b;
+    --theme-nav-bg:       #1a1916;
+    --theme-nav-hover-bg: #2a2825;
+  }
+}
+
+/* ------------------------------------------------------------------
+   Apply tokens to elements
+   ------------------------------------------------------------------ */
+
+html {
+  background-color: var(--theme-bg);
+  transition: background-color 0.2s ease;
+}
+
+body {
+  background-color: var(--theme-bg);
+  color: var(--theme-text);
+}
+
+a {
+  color: var(--theme-link);
+
+  &:visited {
+    color: var(--theme-link);
+  }
+
+  &:hover,
+  &:active {
+    color: var(--theme-link-hover);
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--theme-text);
+}
+
+hr {
+  border-top-color: var(--theme-border);
+}
+
+blockquote {
+  border-left-color: var(--theme-accent);
+  color: var(--theme-text-muted);
+}
+
+figcaption {
+  color: var(--theme-text-muted);
+}
+
+/* Inline code */
+p > code,
+a > code,
+li > code,
+figcaption > code,
+td > code {
+  background: var(--theme-code-bg);
+  border-color: var(--theme-border);
+  color: var(--theme-text);
+}
+
+/* Fenced code blocks */
+pre {
+  background: var(--theme-code-bg);
+  border-color: var(--theme-border);
+  color: var(--theme-text);
+}
+
+.highlight {
+  background: var(--theme-code-bg);
+}
+
+/* Tables */
+table {
+  color: var(--theme-text);
+}
+
+th {
+  background: var(--theme-bg-elevated);
+  border-bottom-color: var(--theme-border);
+}
+
+td {
+  border-bottom-color: var(--theme-border);
+}
+
+/* Masthead */
+.masthead {
+  background-color: var(--theme-nav-bg);
+  border-bottom-color: var(--theme-border);
+}
+
+/* Greedy nav */
+.greedy-nav {
+  background: var(--theme-nav-bg);
+
+  a {
+    color: var(--theme-text);
+
+    &:hover {
+      color: var(--theme-text-muted);
+    }
+
+    &:before {
+      background: var(--theme-accent);
+    }
+  }
+
+  /* Hamburger overflow button */
+  button {
+    background-color: var(--theme-bg-elevated);
+    color: var(--theme-text);
+  }
+
+  /* Overflow dropdown */
+  .hidden-links {
+    background: var(--theme-bg);
+    border-color: var(--theme-border);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+    &:before {
+      border-color: var(--theme-border) transparent;
+    }
+
+    &:after {
+      border-color: var(--theme-bg) transparent;
+    }
+
+    a:hover {
+      color: var(--theme-text);
+      background: var(--theme-nav-hover-bg);
+    }
+
+    li {
+      border-bottom-color: var(--theme-border);
+    }
+  }
+}
+
+/* Footer */
+.page__footer {
+  color: var(--theme-text-muted);
+
+  footer {
+    border-top-color: var(--theme-border);
+  }
+
+  a {
+    color: var(--theme-text-muted);
+
+    &:hover {
+      color: var(--theme-text);
+    }
+  }
+
+  .fas, .fab, .far, .fa-solid, .fa-brands, .fa-regular {
+    color: var(--theme-text-muted);
+  }
+}
+
+/* Sidebar */
+.sidebar {
+  background-color: var(--theme-bg);
+  color: var(--theme-text);
+}
+
+.author__name,
+.author__bio {
+  color: var(--theme-text);
+}
+
+/* Archive lists */
+.archive__item-title a {
+  color: var(--theme-text);
+}
+
+.archive__item-excerpt {
+  color: var(--theme-text-muted);
+}
+
+/* Page content */
+.page__content {
+  color: var(--theme-text);
+}
+
+.page__meta {
+  color: var(--theme-text-muted);
+}
+
+/* TOC */
+.toc {
+  background-color: var(--theme-bg-elevated);
+  border-color: var(--theme-border);
+}
+
+.toc__menu a {
+  color: var(--theme-text-muted);
+  border-bottom-color: var(--theme-border);
+
+  &:hover {
+    color: var(--theme-text);
+    background: var(--theme-nav-hover-bg);
+  }
+}
+
+/* Notice blocks */
+.notice,
+.notice--primary,
+.notice--info,
+.notice--warning,
+.notice--danger,
+.notice--success {
+  background-color: var(--theme-bg-elevated);
+  border-color: var(--theme-border);
+  color: var(--theme-text);
+}
+
+/* Pagination */
+.pagination--pager {
+  color: var(--theme-text-muted);
+  border-color: var(--theme-border);
+
+  &:hover {
+    color: var(--theme-link-hover);
+  }
+}
+
+/* ------------------------------------------------------------------
+   Override compiled SCSS link colours that have higher specificity
+   than the plain `a` rule above and would otherwise win in dark mode.
+   ------------------------------------------------------------------ */
+
+/* .page__content a — compiled to $link-color (dark gray), needs override */
+[data-theme="dark"] .page__content a {
+  color: var(--theme-link);
+  background-image: linear-gradient(
+    to right,
+    var(--theme-link) 0,
+    var(--theme-link) 100%
+  );
+}
+
+[data-theme="dark"] .page__content a:hover {
+  color: var(--theme-link-hover);
+  background-image: linear-gradient(
+    to right,
+    var(--theme-link-hover) 0,
+    var(--theme-link-hover) 100%
+  );
+}
+
+[data-theme="dark"] .page__taxonomy-item:hover {
+  color: var(--theme-link-hover);
+}
+
+[data-theme="dark"] .pagination li a:hover,
+[data-theme="dark"] .pagination--pager:hover {
+  color: var(--theme-link-hover);
+}
+
+/* System preference fallback */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]):not([data-theme="dark"]) .page__content a {
+    color: var(--theme-link);
+    background-image: linear-gradient(
+      to right,
+      var(--theme-link) 0,
+      var(--theme-link) 100%
+    );
+  }
+
+  :root:not([data-theme="light"]):not([data-theme="dark"]) .page__content a:hover {
+    color: var(--theme-link-hover);
+    background-image: linear-gradient(
+      to right,
+      var(--theme-link-hover) 0,
+      var(--theme-link-hover) 100%
+    );
+  }
+
+  :root:not([data-theme="light"]):not([data-theme="dark"]) .page__taxonomy-item:hover,
+  :root:not([data-theme="light"]):not([data-theme="dark"]) .pagination li a:hover,
+  :root:not([data-theme="light"]):not([data-theme="dark"]) .pagination--pager:hover {
+    color: var(--theme-link-hover);
+  }
+}
+
+/* ------------------------------------------------------------------
+   Theme toggle button
+   Positioned absolutely inside .masthead__inner-wrap so it is
+   immune to greedy-nav overflow calculations.
+   ------------------------------------------------------------------ */
+
+/* Give the inner-wrap a positioning context */
+.masthead__inner-wrap {
+  position: relative;
+}
+
+.theme-toggle {
+  position: absolute;
+  top: 50%;
+  right: 0.5em;
+  transform: translateY(-50%);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.4em 0.5em;
+  color: var(--theme-text-muted);
+  font-size: 1em;
+  line-height: 1;
+  border-radius: 4px;
+  z-index: 30;
+  transition: color 0.2s ease, background-color 0.2s ease;
+
+  &:hover {
+    color: var(--theme-accent);
+    background-color: var(--theme-nav-hover-bg);
+  }
+
+  .theme-icon-sun,
+  .theme-icon-moon {
+    display: none;
+  }
+}
+
+/* Reserve right-side space in the nav so links don't slide under the button */
+.greedy-nav {
+  padding-right: 2.5em;
+}
+
+/* Show sun (→ switch to light) when in dark mode */
+[data-theme="dark"] .theme-toggle .theme-icon-sun {
+  display: block;
+}
+
+/* Show moon (→ switch to dark) when in light mode */
+[data-theme="light"] .theme-toggle .theme-icon-moon {
+  display: block;
+}
+
+/* Fallback for system dark preference before JS sets data-theme */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]):not([data-theme="dark"]) .theme-toggle .theme-icon-sun {
+    display: block;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="light"]):not([data-theme="dark"]) .theme-toggle .theme-icon-moon {
+    display: block;
+  }
+}

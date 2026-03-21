@@ -2,6 +2,16 @@
 
 <meta charset="utf-8">
 
+<!-- Apply theme immediately to avoid flash of wrong background -->
+<script>
+(function () {
+  var stored;
+  try { stored = localStorage.getItem('theme'); } catch (e) {}
+  var system = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  document.documentElement.setAttribute('data-theme', stored || system);
+}());
+</script>
+
 {% include seo.html %}
 
 <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
