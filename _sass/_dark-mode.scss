@@ -340,20 +340,22 @@ td {
 
 /* ------------------------------------------------------------------
    Theme toggle button
-   Positioned absolutely inside .masthead__inner-wrap so it is
-   immune to greedy-nav overflow calculations.
+   Flex sibling of .masthead__menu so it never overlaps the greedy-nav
+   hamburger button on narrow/mobile viewports.
    ------------------------------------------------------------------ */
 
-/* Give the inner-wrap a positioning context */
 .masthead__inner-wrap {
-  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.masthead__menu {
+  flex: 1;
+  min-width: 0;
 }
 
 .theme-toggle {
-  position: absolute;
-  top: 50%;
-  right: 0.5em;
-  transform: translateY(-50%);
+  flex-shrink: 0;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -377,11 +379,6 @@ td {
   .theme-icon-moon {
     display: none;
   }
-}
-
-/* Reserve right-side space in the nav so links don't slide under the button */
-.greedy-nav {
-  padding-right: 2.5em;
 }
 
 /* Show sun (→ switch to light) when in dark mode */
