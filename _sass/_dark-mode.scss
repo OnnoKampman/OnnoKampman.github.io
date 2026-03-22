@@ -227,6 +227,14 @@ td {
   color: var(--theme-text);
 }
 
+.archive__item p a {
+  color: var(--theme-link);
+
+  &:hover {
+    color: var(--theme-link-hover);
+  }
+}
+
 .archive__item-excerpt {
   color: var(--theme-text-muted);
 }
