@@ -8,14 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-Thanks for visiting!
+I am a cognitive scientist building AI systems for mental health.
 
-I am a cognitive scientist working on mental health and human-centered AI.
+I lead AI initiatives at [mindline.sg](https://mindline.sg){:target="_blank"}, Singapore's national digital mental health platform, under the [MOH Office for Healthcare Transformation (MOHT)](https://moht.com.sg){:target="_blank"}.
+My work spans the full arc from research to deployment.
+I manage a portfolio of projects at the intersection of AI and mental health, exploring how technology can help scale and improve our mental health care systems.
 
-I lead AI initiatives for [mindline.sg](https://mindline.sg){:target="_blank"}, Singapore's national digital platform for mental health, at the [MOH Office for Healthcare Transformation (MOHT)](https://moht.com.sg){:target="_blank"}.
-My work focuses on a portfolio of projects at the intersection of AI and mental health, exploring how technology can help scale and improve our mental health care systems.
-
-This semester, I'm [teaching](https://onnokampman.com/teaching) a course on AI for Healthcare at the National University of Singapore.
+I [teach AI for Healthcare](https://onnokampman.com/teaching) at the National University of Singapore.
 
 I'm also involved with [SEACrowd](https://seacrowd.github.io){:target="_blank"}, a non-profit organization working to boost AI performance and inclusion across Southeast Asia.
 
