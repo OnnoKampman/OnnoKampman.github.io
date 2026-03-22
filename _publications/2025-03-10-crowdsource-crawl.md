@@ -1,7 +1,7 @@
 ---
 title: "Crowdsource, Crawl, or Generate? Creating SEA-VL, a Multicultural Vision-Language Dataset for Southeast Asia"
 collection: publications
-category: manuscripts
+category: conferences
 permalink: /publication/2025-03-10-crowdsource-crawl
 excerpt: 'SEA-VL, an open-source initiative dedicated to developing high-quality, culturally relevant data for SEA languages, aims to bridge the representation gap in SEA, fostering the development of more inclusive AI systems that authentically represent diverse cultures across SEA.'
 date: 2025-03-10

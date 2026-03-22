@@ -1,7 +1,7 @@
 ---
 title: "Attention-Based LSTM for Psychological Stress Detection from Spoken Language Using Distant Supervision"
 collection: publications
-category: manuscripts
+category: conferences
 permalink: /publication/2018-04-14-attention-based-lstm
 excerpt: "The bidirectional LSTM model with attention is found to be the best model in terms of accuracy and f-score and it is shown that distant supervision fine-tuning enhances the model's performance by 1.6% accuracy and 2.1% f-score."
 date: 2018-04-14

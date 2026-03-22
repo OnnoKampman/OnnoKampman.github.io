@@ -1,7 +1,7 @@
 ---
 title: "Investigating Audio, Video, and Text Fusion Methods for End-to-End Automatic Personality Prediction"
 collection: publications
-category: manuscripts
+category: conferences
 permalink: /publication/2018-05-02-investigating-audio
 excerpt: 'It is shown that a multimodal fusion approach outperforms each single modality channel, with an improvement of 9.4% over the best individual modality (video).'
 date: 2018-05-02

@@ -1,7 +1,7 @@
 ---
 title: "Time-varying functional connectivity as Wishart processes"
 collection: publications
-category: journal article
+category: journals
 permalink: /publication/2024-06-01-time-varying-functional
 excerpt: 'The WP outperformed a sliding window approach with adaptive cross-validated window lengths and a dynamic conditional correlation-multivariate generalized autoregressive conditional heteroskedasticity (MGARCH) baseline on the external stimulus prediction task, while being less prone to false positives in the TVFC null models.'
 date: 2024-06-01

@@ -121,6 +121,16 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
+# Publication categories — controls grouping on the /publications/ page.
+# Keys must match the `category:` field in each publication's front matter.
+publication_category:
+  journals:
+    title: "Journal Papers"
+  conferences:
+    title: "Conference Papers"
+  manuscripts:
+    title: "Preprints & Manuscripts"
+
 # These settings control the types of collections used by the template
 collections:
   publications:

@@ -1,7 +1,7 @@
 ---
 title: "Modeling the machine learning multiverse"
 collection: publications
-category: manuscripts
+category: conferences
 permalink: /publication/2022-06-13-modeling-machine
 excerpt: 'This work model the multiverse with a Gaussian Process surrogate and apply Bayesian experimental design to efficiently explore high-dimensional and often continuous ML search spaces, and synthesize conflicting research on the effect of learning rate on the large batch training generalization gap.'
 date: 2022-06-13
