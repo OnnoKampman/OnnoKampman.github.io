@@ -13,10 +13,14 @@ source "https://rubygems.org"
 # If you want to use Jekyll native, uncomment the line below.
 # Otherwise, uncomment the github-pages line below.
 #gem "jekyll"
-gem "github-pages", group: :jekyll_plugins
+gem "github-pages", "~> 232", group: :jekyll_plugins
 
 # Performance-booster for watching directories on Windows.
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
+
+gem "bigdecimal"
+gem "csv"
+gem "faraday-retry"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
