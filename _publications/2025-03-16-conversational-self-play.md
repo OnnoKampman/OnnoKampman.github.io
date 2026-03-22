@@ -1,5 +1,5 @@
 ---
-title: "Conversational Self-Play for Discovering and Understanding Psychotherapy Approaches"
+title: "Conversational self-play for discovering and understanding psychotherapy approaches"
 collection: publications
 category: conferences
 permalink: /publication/2025-03-16-conversational-self-play

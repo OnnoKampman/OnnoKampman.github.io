@@ -1,5 +1,5 @@
 ---
-title: "Attention-Based LSTM for Psychological Stress Detection from Spoken Language Using Distant Supervision"
+title: "Attention-based LSTM for psychological stress detection from spoken language using distant supervision"
 collection: publications
 category: conferences
 permalink: /publication/2018-04-14-attention-based-lstm

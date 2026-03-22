@@ -1,5 +1,5 @@
 ---
-title: "Nora the Empathetic Psychologist"
+title: "Nora the empathetic psychologist"
 collection: publications
 category: conferences
 permalink: /publication/2017-08-20-nora-empathetic

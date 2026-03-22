@@ -1,5 +1,5 @@
 ---
-title: "Mind the Gap: Aligning Knowledge Bases with User Needs to Enhance Mental Health Retrieval"
+title: "Mind the Gap: Aligning knowledge bases with user needs to enhance mental health retrieval"
 collection: publications
 category: conferences
 permalink: /publication/2025-09-17-mind-the-gap

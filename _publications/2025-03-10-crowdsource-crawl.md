@@ -1,5 +1,5 @@
 ---
-title: "Crowdsource, Crawl, or Generate? Creating SEA-VL, a Multicultural Vision-Language Dataset for Southeast Asia"
+title: "Crowdsource, crawl, or generate? Creating SEA-VL, a multicultural vision-language dataset for Southeast Asia"
 collection: publications
 category: conferences
 permalink: /publication/2025-03-10-crowdsource-crawl

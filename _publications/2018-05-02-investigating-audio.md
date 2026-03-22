@@ -1,5 +1,5 @@
 ---
-title: "Investigating Audio, Video, and Text Fusion Methods for End-to-End Automatic Personality Prediction"
+title: "Investigating audio, video, and text fusion methods for end-to-end automatic personality prediction"
 collection: publications
 category: conferences
 permalink: /publication/2018-05-02-investigating-audio
