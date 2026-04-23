@@ -13,7 +13,7 @@ Thanks for visiting!
 I lead AI initiatives for [mindline.sg](https://mindline.sg){:target="_blank"}, Singapore's national digital platform for mental health, at the [MOH Office for Healthcare Transformation (MOHT)](https://moht.com.sg){:target="_blank"}.
 My work focuses on a portfolio of projects at the intersection of AI and mental health, exploring how technology can help scale and improve our mental health care systems.
 
-This semester, I'm [teaching](https://onnokampman.com/teaching) a course on AI for Healthcare at the National University of Singapore.
+This semester, I'm [teaching](https://onnokampman.com/teaching) a course on AI for Healthcare at the [National University of Singapore](https://www.stat.nus.edu.sg/our-people/faculty-members/).
 
 I'm also involved with [SEACrowd](https://seacrowd.github.io){:target="_blank"}, a non-profit organization working to boost AI performance and inclusion across Southeast Asia.
 
