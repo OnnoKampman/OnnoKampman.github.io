@@ -1,7 +1,7 @@
 ---
-title: "A Multi-Agent Dual Dialogue System to Support Mental Health Care Providers"
+title: "A multi-agent dual dialogue system to support mental health care providers"
 collection: publications
-category: arxiv
+category: manuscripts
 permalink: /publication/2024-11-24-a-multi-agent
 excerpt: 'A general-purpose, human-in-the-loop dual dialogue system to support mental health care professionals and found that the proposed responses matched a reasonable human quality in demonstrating empathy, showing its appropriateness for augmenting the work of mental health care providers.'
 date: 2024-11-24

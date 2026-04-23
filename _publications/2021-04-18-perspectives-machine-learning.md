@@ -1,5 +1,5 @@
 ---
-title: "Perspectives on Machine Learning from Psychology's Reproducibility Crisis"
+title: "Perspectives on machine learning from psychology's reproducibility crisis"
 collection: publications
 category: conferences
 permalink: /publication/2021-04-18-perspectives-machine-learning

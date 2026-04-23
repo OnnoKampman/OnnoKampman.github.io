@@ -17,7 +17,7 @@ It is very useful to be able to preview changes locally before pushing them to G
 
 1. On MacOS, make sure HomeBrew is installed.
 1. Make sure you have `ruby-dev`, `bundler`, and `nodejs` installed.
-    I currently run `ruby v3.4.2`, `node v24.10.0`, and `bundler v2.6.7`.
+    I currently run `ruby v3.3.4`, `node v25.6.1`, and `bundler v4.0.3`.
     On MacOS the commands are:
     ```bash
     brew install ruby
@@ -31,9 +31,18 @@ It is very useful to be able to preview changes locally before pushing them to G
 
 ### Running the website
 
-1. Run `jekyll serve -l -H localhost` to generate the HTML and serve it from `localhost:4000`. The local server will automatically rebuild and refresh the pages on change.
-1. (alternatively) Run `bundle exec jekyll liveserve` to generate the HTML and serve it from `localhost:4000`. The local server will automatically rebuild and refresh the pages on change.
-1. (alternatively) Run `bundle exec jekyll serve` to generate the HTML and serve it from `localhost:4000`.
+Run the following command to generate the HTML and serve it from `localhost:4000`:
+
+```bash
+LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 SASS_PATH=_sass bundle exec jekyll serve -l -H localhost
+```
+
+Two environment variables are required due to quirks in the old gems bundled with `github-pages`:
+
+- `LANG` / `LC_ALL`: fixes a UTF-8 encoding error in the SCSS compiler (`jekyll-sass-converter 1.5.2`).
+- `SASS_PATH`: ensures the SASS compiler can resolve vendor imports (e.g. `vendor/breakpoint/breakpoint`).
+
+The local server will automatically rebuild and refresh the pages on change.
 
 <div class="notice--warning" markdown="1">
 #### ⚠️ Warning

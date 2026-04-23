@@ -1,7 +1,7 @@
 ---
-title: "Harnessing digital phenotyping to advance university student mental health (Brightline) in Singapore: study protocol for a prospective observational study"
+title: "Harnessing digital phenotyping to advance university student mental health (Brightline) in Singapore: Study protocol for a prospective observational study"
 collection: publications
-category: journal article
+category: journals
 permalink: /publication/2025-09-01-harnessing-digital-phenotyping
 excerpt: 'This study will employ an observational study design over a 6-month period, recruiting 500 students from a major public university in Singapore, to identify the digital biomarkers associated with depression, anxiety, stress, loneliness and affect among university students.'
 date: 2025-09-01
