@@ -203,10 +203,14 @@ td {
 
     &:hover {
       color: var(--theme-text);
+
+      .fas, .fab, .far, .fal, .fa-solid, .fa-brands, .fa-regular {
+        color: inherit;
+      }
     }
   }
 
-  .fas, .fab, .far, .fa-solid, .fa-brands, .fa-regular {
+  .fas, .fab, .far, .fal, .fa-solid, .fa-brands, .fa-regular {
     color: var(--theme-text-muted);
   }
 }
