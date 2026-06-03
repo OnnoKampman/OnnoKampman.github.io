@@ -1,6 +1,7 @@
 ---
 title: 'Vibe Coding and Levels of Abstraction'
 date: 2026-06-01
+last_modified_at: 2026-06-03
 permalink: /posts/2026/06/vibe-coding-levels-abstraction/
 author_profile: false
 tags:

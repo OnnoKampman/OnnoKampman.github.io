@@ -64,6 +64,14 @@ layout: default
         {% include page__taxonomy.html %}
       </footer>
 
+      {% if page.collection == 'posts' %}
+      <div class="page__meta" style="margin-top: 1.5em; font-size: 0.8em; color: #888;">
+        <p>
+          <a href="https://github.com/OnnoKampman/OnnoKampman.github.io/commits/master/{{ page.path }}" target="_blank" rel="noopener">View change history on GitHub</a>{% if page.last_modified_at %} &middot; Last updated: {{ page.last_modified_at | date: "%B %d, %Y" }}{% endif %}
+        </p>
+      </div>
+      {% endif %}
+
       {% if page.share %}{% include social-share.html %}{% endif %}
 
       {% include post_pagination.html %}
