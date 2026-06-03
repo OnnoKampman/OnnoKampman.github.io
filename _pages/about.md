@@ -14,7 +14,7 @@ I lead AI initiatives at [mindline.sg](https://mindline.sg){:target="_blank"}, S
 My work spans the full arc from research to deployment.
 I manage a portfolio of projects at the intersection of AI and mental health, exploring how technology can help scale and improve our mental health care systems.
 
-I [teach AI for Healthcare](https://onnokampman.com/teaching) at the National University of Singapore.
+I [teach AI for Healthcare](https://onnokampman.com/teaching) at the [National University of Singapore](https://www.stat.nus.edu.sg/our-people/faculty-members/).
 
 I'm also involved with [SEACrowd](https://seacrowd.github.io){:target="_blank"}, a non-profit organization working to boost AI performance and inclusion across Southeast Asia.
 

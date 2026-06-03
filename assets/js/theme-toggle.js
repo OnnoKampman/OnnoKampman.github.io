@@ -19,6 +19,10 @@
     try { localStorage.setItem(STORAGE_KEY, theme); } catch (e) {}
   }
 
+  function clearStoredTheme() {
+    try { localStorage.removeItem(STORAGE_KEY); } catch (e) {}
+  }
+
   function getSystemTheme() {
     return window.matchMedia('(prefers-color-scheme: dark)').matches ? DARK : LIGHT;
   }
@@ -30,7 +34,13 @@
   function toggleTheme() {
     var current = document.documentElement.getAttribute('data-theme') || getSystemTheme();
     var next = current === DARK ? LIGHT : DARK;
-    storeTheme(next);
+    // If the new theme matches the system preference, clear localStorage so
+    // the site resumes auto-following the OS setting instead of staying locked.
+    if (next === getSystemTheme()) {
+      clearStoredTheme();
+    } else {
+      storeTheme(next);
+    }
     applyTheme(next);
   }
 
