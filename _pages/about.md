@@ -20,4 +20,4 @@ I'm also involved with [SEACrowd](https://seacrowd.github.io){:target="_blank"},
 
 Additionally, I remain affiliated with the University of Cambridge as a [Visiting Scientist](https://neuroscience.cam.ac.uk/member/opk20){:target="_blank"}, where my research focuses on developing algorithms for characterizing brain connectivity from MRI scans and understanding how connectivity is altered in depression.
 
-Feel free to reach out at <a href="mailto:onno.kampman@moht.com.sg">onno.kampman@moht.com.sg</a> if you share similar interests.
+If you work on (mental) health AI - [get in touch](mailto:onno.kampman@moht.com.sg).
