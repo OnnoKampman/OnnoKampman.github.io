@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="40" viewBox="0 0 120 40">
+  <rect width="120" height="40" rx="4" fill="#006EB5"/>
+  <text x="60" y="15" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#ffffff">BMJ Open</text>
+  <text x="60" y="30" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9" fill="#cce4f5">British Medical Journal</text>
+</svg>
