@@ -280,16 +280,6 @@ td {
   color: var(--theme-text);
 }
 
-/* Pagination */
-.pagination--pager {
-  color: var(--theme-text-muted);
-  border-color: var(--theme-border);
-
-  &:hover {
-    color: var(--theme-link-hover);
-  }
-}
-
 /* ------------------------------------------------------------------
    Override compiled SCSS link colours that have higher specificity
    than the plain `a` rule above and would otherwise win in dark mode.
@@ -318,7 +308,6 @@ td {
   color: var(--theme-link-hover);
 }
 
-[data-theme="dark"] .pagination li a:hover,
 [data-theme="dark"] .pagination--pager:hover {
   color: var(--theme-link-hover);
 }

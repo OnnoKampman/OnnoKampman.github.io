@@ -72,7 +72,6 @@ layout: default
       </div>
       {% endif %}
 
-      {% include post_pagination.html %}
     </div>
 
   </article>
@@ -84,7 +83,7 @@ layout: default
         <h4 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h4>
       {% endif %}
       <div class="grid__wrapper">
-        {% for post in site.related_posts limit:4 %}
+        {% for post in site.related_posts limit:3 %}
           {% include archive-single.html type="grid" %}
         {% endfor %}
       </div>
