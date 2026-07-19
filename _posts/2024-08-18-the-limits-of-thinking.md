@@ -1,6 +1,7 @@
 ---
 title: 'The Limits of Thinking'
 date: 2024-08-18
+last_modified_at: 2026-07-19
 permalink: /posts/2024/08/the-limits-of-thinking/
 author_profile: false
 tags:
@@ -9,6 +10,7 @@ tags:
 ---
 
 This essay discusses the mental concept of thinking in limits.
+It's an incredibly powerful mental tool for analyzing a wide range of situations.
 Its utility is demonstrated in a situation where humans have poor intuition.
 
 ## Physicists and Their Limits
