@@ -1,14 +1,13 @@
 ---
 title: 'The Mental Health and Performance Continuum'
 date: 2016-09-01
+last_modified_at: 2026-07-19
 permalink: /posts/2016/09/mental-health-continuum/
 author_profile: false
 tags:
   - essays
   - mental health
 ---
-
-This post describes my view of mental health as a continuous spectrum.
 
 Mental health and mental performance exist on a continuum, not as binary states.
 Like most natural processes in the world, if we plotted the population's mental functioning (as a rough concept), we'd see a normal distribution from those struggling significantly on one end, through the average majority in the middle, to high performers on the other.
