@@ -1,6 +1,7 @@
 ---
 title: 'The Genie and the Therapist: Rethinking Bioethics for Digital Mental Health'
 date: 2025-08-22
+last_modified_at: 2026-07-19
 permalink: /posts/2025/08/the-genie-and-the-therapist/
 author_profile: false
 tags:
@@ -9,8 +10,6 @@ tags:
   - essays
   - ethics
 ---
-
-This post describes the unique challenge of bioethics in digital mental health.
 
 I have become more interested in bioethics and AI governance recently, because it has become clear that these potentially present the biggest challenge to digital mental health transformation.
 I have come to believe that traditional bioethical frameworks like compassionate use are inadequate for digital mental health.
