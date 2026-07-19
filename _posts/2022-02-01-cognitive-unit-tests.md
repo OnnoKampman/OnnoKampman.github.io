@@ -1,6 +1,7 @@
 ---
 title: 'Cognitive Unit Tests'
 date: 2022-02-01
+last_modified_at: 2026-07-19
 permalink: /posts/2022/02/cognitive-unit-tests/
 author_profile: false
 tags:
@@ -10,7 +11,7 @@ tags:
   - psychology
 ---
 
-This essay introduces the concept of "cognitive unit tests".
+This essay introduces the concept of something I like to call the "cognitive unit tests".
 
 ## Rumination and the prefrontal cortex
 
