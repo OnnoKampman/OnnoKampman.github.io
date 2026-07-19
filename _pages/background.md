@@ -9,12 +9,20 @@ I'm a cognitive scientist by training, with an interdisciplinary background span
 
 I lead AI initiatives for [mindline.sg](https://mindline.sg){:target="_blank"}, Singapore's national digital platform for mental health, at the [MOH Office for Healthcare Transformation (MOHT)](https://moht.com.sg){:target="_blank"}.
 My work focuses on a portfolio of projects at the intersection of AI and mental health, exploring how technology can help scale and improve our mental health care systems.
+I'm passionate to explore how AI can support human flourishing, by helping people who are struggling find timely and appropriate support.
 
 This semester, I'm [teaching](https://onnokampman.com/teaching) a course on AI for Healthcare at the National University of Singapore.
 
 I'm also involved with [SEACrowd](https://seacrowd.github.io){:target="_blank"}, a non-profit organization working to boost AI performance and inclusion across Southeast Asia.
+We run a local apprenticeship program to train the next generation of AI researchers and builders.
+Please reach out if you are based in Southeast Asia and would like to break into AI research.
+
+I sit on a Working Group at Duke-NUS CoRE-SDO to develop and adapt ISO standards for AI in healthcare.
 
 Additionally, I remain affiliated with the University of Cambridge as a [Visiting Scientist](https://neuroscience.cam.ac.uk/member/opk20){:target="_blank"}, where my research focuses on developing algorithms for characterizing brain connectivity from MRI scans and understanding how connectivity is altered in depression.
+
+I also remain active in the research community.
+I am a reviewer for NeurIPS, ACL, the Journal of Affective Computing, and Network Neuroscience.
 
 I completed my PhD in the [Adaptive Brain Lab](https://www.abg.psychol.cam.ac.uk/){:target="_blank"} at the University of Cambridge's Department of Psychology, under the supervision of [Zoe Kourtzi](https://www.psychol.cam.ac.uk/staff/professor-zoe-kourtzi){:target="_blank"} and [Mark van der Wilk](https://mvdw.uk){:target="_blank"}.
 Here, I worked on AI for Brain Science and Mental Health and computational cognitive neuroscience approaches to learning and decision making.
