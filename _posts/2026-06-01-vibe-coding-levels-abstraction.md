@@ -1,7 +1,7 @@
 ---
 title: 'Vibe Coding and Levels of Abstraction'
 date: 2026-06-01
-last_modified_at: 2026-06-03
+last_modified_at: 2026-07-19
 permalink: /posts/2026/06/vibe-coding-levels-abstraction/
 author_profile: false
 tags:
@@ -12,7 +12,7 @@ tags:
 ---
 
 One of the most underappreciated ideas in all of science is the idea of abstraction.
-Not in the abstract (excuse the pun), but as a practical tool for understanding, building, and communicating.
+Abstraction serves as a practical tool for understanding, building, and communicating (see also [Why Do We Abstract?](https://onnokampman.com/posts/2011/09/why-we-abstract/)).
 The history of computer science is arguably the history of abstraction.
 And right now, with the rise of AI coding tools, that history is more relevant than ever.
 
@@ -163,9 +163,9 @@ The question is not whether to embrace or resist this shift, but how to remain c
 
 ## Further reading
 
-1. Marr, D. (1982). *Vision: A Computational Investigation into the Human Representation and Processing of Visual Information*. W.H. Freeman.
-1. Karpathy, A. (2025). "There's a new kind of coding I call 'vibe coding'". Post on X (formerly Twitter), February 2025.
 1. Feynman, R. P. (1985). *Surely You're Joking, Mr. Feynman!*. W. W. Norton & Company.
+1. Karpathy, A. (2025). "There's a new kind of coding I call 'vibe coding'". Post on X (formerly Twitter), February 2025.
+1. Marr, D. (1982). *Vision: A Computational Investigation into the Human Representation and Processing of Visual Information*. W.H. Freeman.
 1. Philbin, C. A. (2017). [*Crash Course Computer Science*](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo) [YouTube playlist].
 1. Schluntz, E. (2025). ["Vibe Coding in Production: How Anthropic Uses AI to Write Code"](https://www.youtube.com/watch?v=78EYLieMpvc) [YouTube].
 1. Shapiro, D. (2026). "The Five Levels: from Spicy Autocomplete to the Dark Factory". danshapiro.com.
