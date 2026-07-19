@@ -1,14 +1,13 @@
 ---
 title: 'A Taxonomy of Robust Science'
 date: 2020-01-14
+last_modified_at: 2026-07-19
 permalink: /posts/2020/01/taxonomy-robust-science/
 author_profile: false
 tags:
   - psychology
   - science
 ---
-
-This post describes some important concepts in open and robust science.
 
 I took this great course on behavioral science as a robust discipline by Amy Orben at the University of Cambridge during my PhD.
 It has since greatly influenced how I see the fields of psychology and neuroscience, but also science in general.

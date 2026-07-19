@@ -1,14 +1,13 @@
 ---
 title: 'Subjective Knowledge Graphs'
 date: 2021-10-07
+last_modified_at: 2026-07-19
 permalink: /posts/2021/10/subjective-knowledge-graphs/
 author_profile: false
 tags:
   - essays
   - mental health
 ---
-
-This post describes my view of mental health.
 
 Some years ago I read this blog post by Tim Urban about Neuralink.
 You should probably go and read it first, he is a great story teller.
