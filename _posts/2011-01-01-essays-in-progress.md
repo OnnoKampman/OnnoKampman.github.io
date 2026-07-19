@@ -1,14 +1,13 @@
 ---
 title: 'Essays in Progress'
 date: 2011-01-01
+last_modified_at: 2026-07-19
 permalink: /posts/2011/01/essays-in-progress/
 author_profile: false
 tags:
   - me
   - essays
 ---
-
-This post describes my approach to essay writing.
 
 I’ve decided to start publishing occasional essays—short pieces on things I’m thinking about, exploring, or trying to understand better.
 These won’t be polished takes or final conclusions (those are more reserved for peer-reviewed publications).
