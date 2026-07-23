@@ -6,13 +6,30 @@ author_profile: false
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="https://scholar.google.com/citations?user={{ site.author.googlescholar }}" target="_blank">my Google Scholar profile</a> or on <a href="https://semanticscholar.org/author/{{ site.author.semanticscholar }}" target="_blank">my Semantic Scholar profile</a>.</div>
+  <div class="wordwrap">My articles are also on <a href="https://scholar.google.com/citations?user={{ site.author.googlescholar }}" target="_blank">Google Scholar</a> or <a href="https://semanticscholar.org/author/{{ site.author.semanticscholar }}" target="_blank">Semantic Scholar</a>.</div>
 {% endif %}
 
 {% include base_path %}
 
 <!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
+  <nav class="publication-toc">
+    <ul>
+      {% for category in site.publication_category %}
+        {% assign has_posts = false %}
+        {% for post in site.publications %}
+          {% if post.category == category[0] %}
+            {% assign has_posts = true %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+        {% if has_posts %}
+          <li><a href="#{{ category[0] }}">{{ category[1].title }}</a></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </nav>
+
   {% for category in site.publication_category  %}
     {% assign title_shown = false %}
     {% for post in site.publications reversed %}
@@ -20,7 +37,7 @@ author_profile: false
         {% continue %}
       {% endif %}
       {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
+        <h2 id="{{ category[0] }}">{{ category[1].title }}</h2><hr />
         {% assign title_shown = true %}
       {% endunless %}
       {% include archive-single.html %}
