@@ -59,12 +59,18 @@
       <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
       {% endif %}
 
+      {% if post.category == 'media' %}
+        {% assign link_label = "[Read]" %}
+      {% else %}
+        {% assign link_label = "[PDF]" %}
+      {% endif %}
+
       {% if post.citation and post.paperurl %}
-        <p>{{ post.citation }} <a href="{{ post.paperurl }}" target="_blank" rel="noopener noreferrer">[PDF]</a></p>
+        <p>{{ post.citation }} <a href="{{ post.paperurl }}" target="_blank" rel="noopener noreferrer">{{ link_label }}</a></p>
       {% elsif post.citation %}
         <p>{{ post.citation }}</p>
       {% elsif post.paperurl %}
-        <p><a href="{{ post.paperurl }}" target="_blank" rel="noopener noreferrer">[PDF]</a></p>
+        <p><a href="{{ post.paperurl }}" target="_blank" rel="noopener noreferrer">{{ link_label }}</a></p>
       {% endif %}
     </div>
   </article>

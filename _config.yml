@@ -129,6 +129,8 @@ publication_category:
     title: "Conference Papers"
   manuscripts:
     title: "Preprints & Manuscripts"
+  media:
+    title: "Media & Perspectives"
 
 # These settings control the types of collections used by the template
 collections:
