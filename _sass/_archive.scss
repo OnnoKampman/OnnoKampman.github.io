@@ -44,13 +44,13 @@
 .archive__item--publication {
   display: flex;
   align-items: flex-start;
-  gap: 1.25em;
+  gap: 1.5em;
 }
 
 .publication-venue-icon {
   flex: 0 0 auto;
-  width: 4.5em;
-  height: 4.5em;
+  width: 5em;
+  height: 5em;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -61,8 +61,8 @@
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
 
   @media (max-width: #{$small}) {
-    width: 3.25em;
-    height: 3.25em;
+    width: 3.6em;
+    height: 3.6em;
   }
 
   img {
