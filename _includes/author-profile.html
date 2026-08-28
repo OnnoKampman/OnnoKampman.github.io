@@ -6,6 +6,7 @@
 
 <div itemscope itemtype="http://schema.org/Person">
 
+  {% unless page.collection == 'publications' %}
   <div class="author__avatar">
     {% if author.avatar contains "://" %}
     	<img src="{{ author.avatar }}" alt="{{ author.name }}">
@@ -13,6 +14,7 @@
     	<img src="{{ author.avatar | prepend: '/images/' | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}">
     {% endif %}
   </div>
+  {% endunless %}
 
 <!--  <div class="author__urls-wrapper" style="margin-top: -5em;width: 40px;">-->
 <!--    <button class="btn btn--inverse">Social</button>-->

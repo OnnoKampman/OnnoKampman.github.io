@@ -74,6 +74,15 @@
   }
 }
 
+.publication-pdf-link {
+  margin: 0.5em 0 1em;
+
+  .btn {
+    margin-bottom: 0;
+    border-radius: 2px;
+  }
+}
+
 .archive__item-body {
   min-width: 0;
   flex: 1 1 auto;
