@@ -55,6 +55,8 @@
 
       {% if post.category == 'media' %}
         {% assign link_label = "Read" %}
+      {% elsif post.category == 'software' %}
+        {% assign link_label = "GitHub" %}
       {% else %}
         {% assign link_label = "PDF" %}
       {% endif %}

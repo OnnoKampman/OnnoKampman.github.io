@@ -131,6 +131,8 @@ publication_category:
     title: "Preprints & Manuscripts"
   media:
     title: "Media & Perspectives"
+  software:
+    title: "Software"
 
 # These settings control the types of collections used by the template
 collections:
