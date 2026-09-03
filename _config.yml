@@ -127,10 +127,10 @@ publication_category:
     title: "Journal Papers"
   conferences:
     title: "Conference Papers"
-  manuscripts:
-    title: "Preprints & Manuscripts"
   media:
     title: "Media & Perspectives"
+  manuscripts:
+    title: "Preprints & Manuscripts"
   software:
     title: "Software"
 
