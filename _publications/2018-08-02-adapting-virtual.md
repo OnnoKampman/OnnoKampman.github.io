@@ -1,5 +1,5 @@
 ---
-title: "Adapting a Virtual Agent to User Personality"
+title: "Adapting a virtual agent to user personality"
 collection: publications
 category: conferences
 permalink: /publication/2018-08-02-adapting-virtual
