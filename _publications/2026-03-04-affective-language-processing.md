@@ -5,9 +5,9 @@ category: journals
 permalink: /publication/2026-03-04-affective-language-processing
 excerpt: "Survey paper on the use of LLMs in mental healthcare."
 date: 2026-03-04
-venue: 'Transactions on Affective Computing'
-paperurl: 'https://sentic.net/language-centered-mental-healthcare.pdf'
-citation: "Wu et al. (2026). &quot;Affective language processing for mental healthcare: A survey of LLM-based approaches across the care continuum.&quot; <i>Transactions on Affective Computing</i>."
+venue: 'IEEE Transactions on Affective Computing'
+paperurl: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11664281'
+citation: "Wu et al. (2026). &quot;Affective language processing for mental healthcare: A survey of LLM-based approaches across the care continuum.&quot; <i>IEEE Transactions on Affective Computing</i>."
 ---
 
 Mental healthcare is fundamentally mediated by affective phenomena expressed through language, including emotional disclosure, shifting mood states, cognitive appraisals, and the relational dynamics of therapeutic alliance.
