@@ -1,5 +1,5 @@
 ---
-title: "Mind the Language Gap: Building an Inclusive AI Future for Southeast Asia"
+title: "Mind the language gap: Building an inclusive AI future for Southeast Asia"
 collection: publications
 category: media
 permalink: /publication/2025-09-18-mind-the-language-gap
