@@ -11,8 +11,8 @@ redirect_from:
 I am a cognitive scientist building AI systems for mental health.
 
 My main focus at the moment is to lead AI initiatives for [mindline.sg](https://mindline.sg){:target="_blank"}, Singapore's national digital mental health platform, at the [MOH Office for Healthcare Transformation (MOHT)](https://moht.com.sg){:target="_blank"}.
-My work spans the full arc from research to deployment.
-I manage a portfolio of projects at the intersection of AI and mental health, exploring how technology can help scale and improve our mental health care systems so that everyone who's struggling can get timely and appropriate support.
+Our team acts as an enabler and catalyst for building a world-class mental health ecosystem.
+I manage a portfolio of innovative products and research projects at the intersection of AI and mental health, exploring how technology can help scale and improve our mental health care systems so that everyone who's struggling can get timely and appropriate support.
 
 I also work on a few related side quests.
 I [teach AI for Healthcare](https://onnokampman.com/teaching) at the [National University of Singapore](https://www.stat.nus.edu.sg/our-people/faculty-members/).
