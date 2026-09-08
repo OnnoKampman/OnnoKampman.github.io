@@ -152,7 +152,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-      related: true
   # _pages
   - scope:
       path: ""

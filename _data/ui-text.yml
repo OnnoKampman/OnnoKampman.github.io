@@ -15,7 +15,6 @@ en: &DEFAULT_EN
   categories_label           : "Categories:"
   date_label                 : "Published:"
   more_label                 : "Learn More"
-  related_label              : "You May Also Enjoy"
   follow_label               : "Follow:"
   feed_label                 : "Feed"
   powered_by                 : "Powered by"
